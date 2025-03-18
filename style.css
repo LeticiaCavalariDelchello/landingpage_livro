@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: #F8F5E1;
+    color: #1F1F1F;
+    font-family: "Merriweather", serif; /* Fonte padrão para leitura */
+    line-height: 1.6;
+}
+
+.destaque {
+    color: #C4A77D;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+
+.cabecalho-imagem {
+    height: 100px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+    padding: 10px 20px;
+}
+
+.cabecalho-menu-item {
+    font-family: "Cinzel", serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #C4A77D;
+    padding: 10px;
+    transition: color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.cabecalho-menu-item:hover {
+    color: #8B5E3C;
+    transform: scale(1.05);
+}
+
+h1, h2, h3 {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    color: #8B5E3C;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.conteudo {
+    margin-bottom: 0 auto;
+    border-top: 0.4px solid #C4A77D;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.conteudo-principal, .conteudo-secundario {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    padding: 40px 80px;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-secundario-escrito-titulo {
+    padding: 40px 80px;
+    border-top: 0.4px solid #C4A77D;
+}
+
+.conteudo-principal-escrito-lista {
+    list-style: none;
+    padding-left: 0;
+}
+
+.conteudo-principal-escrito-item {
+    font-size: 1rem;
+    padding: 5px 0;
+    position: relative;
+    padding-left: 25px;
+}
+
+.conteudo-secundario-escrito-lista {
+    list-style: none;
+    padding-left: 0;
+}
+
+.conteudo-secundario-escrito-item {
+    font-size: 1rem;
+    padding: 5px 0;
+    position: relative;
+    padding-left: 25px;
+}
+
+.rodape{
+    padding: 32px;
+    background: linear-gradient(135deg, #C4A77D, #8B5E3C);
+    text-align: center;
+    border-top: 0.4px solid #C4A77D;
+}
+
+.rodape-imagem{
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+.rodape-texto {
+    color: #FFF8E7;
+    font-size: 14px;
+    margin-top: 10px;
+    opacity: 0.9;
+}
